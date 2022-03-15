@@ -5,7 +5,8 @@
 /**
  * main - Emtry
  *
- * Description: Assign a random number and print whether it is positive, negative or zero
+ * Description: Assign a random number and print whether
+ * it is positive, negative or zero
  *
  * Return: returns 0 (Success)
  */
