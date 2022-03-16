@@ -1,40 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - entry
+ * main - Entry point
  *
- * Description: print all possible combo of two digits
+ * Description: Print all letters of the alphabets (lowercase) using putchar()
  *
- * Return: 0
+ * Return: program returns 0 (Success)
  */
 
 int main(void)
 {
-	int x;
-	int y;
-	int z;
+	char ch;
 
-	x = 0;
+	ch = 'a';
 
-	while (x < 100)
-	{
-		y = x / 10; /* tens */
-		z = x % 10; /* unit */
-
-		if (y < z)
-		{
-			putchar(y + '0');
-			putchar(z + '0');
-
-			if (x < 89)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-
-		x++;
-	}
+	do {
+		putchar(ch);
+		ch++;
+	} while (ch <+ 'z');
 	putchar('\n');
 	return (0);
 }
