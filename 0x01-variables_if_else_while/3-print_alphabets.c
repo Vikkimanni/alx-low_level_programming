@@ -25,9 +25,9 @@ int main(void)
 	do {
 		putchar(CH);
 		CH++;
-	} while (CH <= 'z');
+	} while (CH <= 'Z');
 
-	putchar( '\n' );
+	putchar('\n');
 
 	return (0);
 }
