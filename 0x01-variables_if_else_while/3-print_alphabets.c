@@ -27,7 +27,7 @@ int main(void)
 		CH++;
 	} while (CH <= 'z');
 
-	putchar('\n');
+	putchar( '\n' );
 
 	return (0);
 }
