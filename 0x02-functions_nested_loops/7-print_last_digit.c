@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit  - prints the last digit of a number
+ * print_last_digit - prints the last digit of a number
  *
- * @i: integer parameter
+ * @i: integer param
  *
  * Return: returns 0
  */
@@ -13,8 +13,8 @@ int print_last_digit(int i)
 	i = i % 10;
 	if (i < 0)
 	{
-		i = -1;
+		i = -i;
 	}
 	_putchar(i + '0');
 	return (i);
-}	
+}
